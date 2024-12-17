@@ -1,27 +1,35 @@
-# InventorySystemApp
+# Sistema de Inventario - Backend y Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Este proyecto es una aplicación full-stack que permite gestionar productos en un sistema de inventario. El **backend** está desarrollado con **.NET 8** y **SQL Server**. El **frontend** utiliza **Angular 17**, **Angular Material** y **Bootstrap**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## **Requisitos previos**
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (v18 o superior)
+- [Angular CLI](https://angular.io/cli) (v17)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## **Instrucciones para configurar y ejecutar el proyecto**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 🛠️ **Configuración**
 
-## Running unit tests
+1. Navega al directorio del frontend:
+    ```bash
+    cd inventory-system-app
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Instala las dependencia de Angular:
+    ```bash
+    npm install
 
-## Running end-to-end tests
+3. Corre el servidor de desarrollo:
+    ```bash
+    ng serve --o
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. La aplicación estará disponible en http://localhost:4200.
 
-## Further help
+### 🔑 **Credenciales por defecto**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Usuario:** admin
+**Contraseña:** admin123

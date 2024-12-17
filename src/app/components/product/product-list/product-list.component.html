@@ -35,7 +35,11 @@
     <!-- Nombre -->
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef> Nombre </th>
-      <td mat-cell *matCellDef="let product">{{ product.name }}</td>
+      <td mat-cell *matCellDef="let product">{{ product.name }}
+      <div *ngIf="product.stock < 5">
+        <mat-icon color="warn">report</mat-icon>
+      </div>  
+      </td>
     </ng-container>
   
     <!-- Precio -->
