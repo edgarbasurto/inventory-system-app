@@ -1,6 +1,6 @@
-# Sistema de Inventario - Backend y Frontend
+# Sistema de Inventario - Frontend
 
-Este proyecto es una aplicación full-stack que permite gestionar productos en un sistema de inventario. El **backend** está desarrollado con **.NET 8** y **SQL Server**. El **frontend** utiliza **Angular 17**, **Angular Material** y **Bootstrap**.
+Este proyecto es una aplicación que permite gestionar productos en un sistema de inventario. Utiliza **Angular 17**, **Angular Material** y **Bootstrap**.
 
 ---
 
@@ -31,5 +31,5 @@ Este proyecto es una aplicación full-stack que permite gestionar productos en u
 
 ### 🔑 **Credenciales por defecto**
 
-**Usuario:** admin
-**Contraseña:** admin123
+- **Usuario:** admin
+- **Contraseña:** admin123
